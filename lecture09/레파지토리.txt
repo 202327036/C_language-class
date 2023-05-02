@@ -1,0 +1,28 @@
+서버에 있는 저장소를 영어로 "레파지토리"라고 함
+레파지토리 
+
+clone을 통해 복사해오고 pull로 땡겨서 갱신(수정)
+
+이 수정할 파일을 올리려면
+stage => 업로드할 파일 지정
+stage에 이 업로드할 파일을 추가하는 걸 add 작업이라 함
+
+stage는 commit 명령어를 통해 기록하게 됨.
+이제 push를 통해 서버에 집어넣음.
+
+conflict(충돌) => 충돌을 낸 사람이 다 보고 수정을 해줘야함
+어떤 부분이 서로 다른지 잘 나와있어서 보고 고쳐서 올리기
+
+MD(마크 다운) <=> Mark Up
+
+git status => modified로 수정된 파일 붉은색 확인 가능
+git add . or 파일이름 => 전체 혹은 선택해 스테이지 올리기
+
+git commit => 기록
+git config ==> 내 계정,유저이름 등록, 등록 확인 가능
+git config user.name
+git config user.email
+git --config user.name " "
+git --config user.email " "
+
+수정하고 git push 누르고 업로드

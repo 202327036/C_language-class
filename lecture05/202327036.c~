@@ -1,0 +1,7 @@
+#include"dino_screen.h"
+#include<stdio.h>
+
+int screen()
+
+{ printf("33");
+	return 0; }
